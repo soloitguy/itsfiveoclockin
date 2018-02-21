@@ -79,6 +79,6 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end(exports.itsfiveoclockin());
 }).listen(8080);
-console.log("It's 5 o'clock in " + exports.itsfiveoclockin())
+console.log(exports.itsfiveoclockin())
 
 // var cityname

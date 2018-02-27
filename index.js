@@ -69,7 +69,7 @@ if (whereitis.includes("\+12:")) {
   var final = "Alofi"
 }  else if (whereitis.includes("\-12:")) {
   var final = "Baker Island"
-} else { var final = NOWHERE }
+} else { var final = "NOWHERE" }
 
 return "It's 5 o'clock in " + final;
 }};
